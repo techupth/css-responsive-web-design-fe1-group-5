@@ -1,1 +1,109 @@
 /* Start coding here */
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .content-item {
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    background-color:lightgray;
+    width: 300px;
+    height: 250px;
+    border-radius: 10px;
+border-color: black;
+  }
+  .content-item1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color:orange;
+    width: 300px;
+    height: 250px;
+    border-radius: 10px;
+border-color: black;
+  }
+
+  .content-item:hover {
+    background-color: orange;
+  }
+
+  .content-item1:hover {
+    background-color:lightgray;
+  }
+  .pull-left {float:left;}
+.pull-right {float:right;}
+.text-center{text-align: center;}
+
+
+.topleft {
+  flex: 1;
+}
+
+
+@media only screen and (max-width : 600px){
+
+  main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+  .content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .content-item {
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    background-color:lightgray;
+    width: 300px;
+    height: 250px;
+    border-radius: 10px;
+border-color: black;
+  }
+  .content-item1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color:orange;
+    width: 300px;
+    height: 250px;
+    border-radius: 10px;
+border-color: black;
+  }
+
+  .content-item:hover {
+    background-color: orange;
+  }
+
+  .content-item1:hover {
+    background-color:lightgray;
+  }
+  .pull-left {float:left;}
+.pull-right {float:right;}
+.text-center{text-align: center;}
+
+
+.topleft {
+  flex: 1;
+}
+
+
+
+}
